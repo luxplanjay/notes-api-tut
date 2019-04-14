@@ -1,6 +1,6 @@
 const express = require('express');
 const corsMiddleware = require('cors');
-const notesRoutes = require('./notes/routes');
+const notesRoutes = require('./notes/notesRoutes');
 
 const app = express();
 
